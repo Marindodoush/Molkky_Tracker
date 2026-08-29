@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">Mölkky Tracker</string>
+
+    <!-- Accueil -->
+    <string name="menu_rules">Règles</string>
+    <string name="menu_start">Démarrer</string>
+    <string name="menu_alias">Alias</string>
+    <string name="menu_credits">Crédits</string>
+    <string name="settings_title">Langues</string>
+    <string name="settings_auto">Langue du système</string>
+
+    <!-- Configuration -->
+    <string name="setup_title">Qui joue ?</string>
+    <string name="setup_alias_placeholder">Alias</string>
+    <string name="setup_memorize">Mémoriser cet Alias</string>
+    <string name="setup_game_mode">Mode de jeu</string>
+    <string name="setup_individual">Individuel</string>
+    <string name="setup_teams">%1$d Équipes</string>
+    <string name="setup_start_button">Démarrer la partie</string>
+
+    <!-- Jeu -->
+    <string name="game_over">Partie terminée !</string>
+    <string name="game_restart_same">1 - Relancer (mêmes équipes)</string>
+    <string name="game_restart_new">2 - Relancer (nouvelles équipes)</string>
+    <string name="game_home">3 - Retour à l\'accueil</string>
+    <string name="game_stats_title">Statistiques de %1$s</string>
+    <string name="game_current_session">Partie en cours</string>
+    <string name="game_no_score">Aucun score</string>
+    <string name="game_throws">Lancers (%1$d) : %2$s</string>
+    <string name="game_total_points">Total : %1$d pts</string>
+    <string name="game_session_history">Historique de la session</string>
+    <string name="game_history_entry">Partie %1$d</string>
+    <string name="game_close">Fermer</string>
+
+    <!-- Gestion Alias -->
+    <string name="alias_manage_title">Gérer les Alias</string>
+    <string name="alias_new_placeholder">Nouvel Alias</string>
+    <string name="alias_add_button">Ajouter</string>
+    <string name="alias_edit_dialog">Modifier l\'Alias</string>
+    <string name="alias_back">Retour</string>
+
+    <!-- RÈGLES -->
+    <string name="rules_materiel_title">Matériel</string>
+    <string name="rules_materiel_content">• 12 quilles coupées en biseau numérotées de 1 à 12,\n• 1 percuteur cylindrique.</string>
+    <string name="rules_but_title">But du jeu</string>
+    <string name="rules_but_content">Être la 1ère personne-équipe à atteindre le score exact de 50pts.</string>
+    <string name="rules_deroulement_title">Déroulement du jeu</string>
+    <string name="rules_deroulement_1">Disposez le jeu comme représenté sur la page d’accueil.</string>
+    <string name="rules_deroulement_2">Une fois dans la zone de lancement, envoyez le « Mölkky » (percuteur) sur les quilles.</string>
+    <string name="rules_deroulement_3">Lorsqu\'une quille est tombée complètement à plat, on la relève au niveau de sa pointe. Si une quille est en appuis sur une autre ou sur le Mölkky alors on la relève à l’emplacement de sa base.</string>
+    <string name="rules_score_title">Pour marquer des points</string>
+    <string name="rules_score_bullet_1">Quand vous faites tomber une seule et unique quille vous marquez le score indiqué sur cette dernière.</string>
+    <string name="rules_score_bullet_2">Quand vous faites tomber plusieurs quilles, le nombre de quilles tombées de cette manière s\'ajoute à votre score.</string>
+    <string name="rules_score_note">Seules les quilles tombées complètement à plat sont comptabilisées.</string>
+    <string name="rules_score_example">« Par exemple : pour marquer 4pts, on peut soit faire tomber la quille numéro 4 (seule), soit faire tomber 4 quilles en un lancé, quelque soit les chiffres indiqués sur ces dernières. »</string>
+    <string name="rules_overshoot">Si une personne/équipe doit dépasser 50pts, alors son score redescend à 25pts.</string>
+    <string name="rules_miss_rule">Si une personne/équipe manque 3 lancés consécutifs, la prochaine personne de cette équipe qui doit jouer devra passer son tour. Le compteur de coups manqués sera alors remis à zéro.</string>
+    <string name="rules_miss_example">« Par exemple : Manu fait un lancé à 0pt, ensuite Julie fait également un lancé à 0pt. A ce moment là, si Manu fait un nouveau lancé à 0pt, alors Julie devra passer son tour. En revanche, si Manu marque des points alors ils s’ajouteront normalement et le compteur de « coups manqués » est remis à zéro. »</string>
+    <string name="rules_fin_title">Fin du jeu</string>
+    <string name="rules_fin_content">Lorsqu\'une personne/équipe a atteint strictement le score de 50pts, la partie s’arrête.</string>
+    <string name="credits_title">CRÉDITS</string>
+    <string name="credits_author"><b>MARINDODOUSH</b> a créé cette magnifique application (esthétique, fonctionnalités).</string>
+    <string name="credits_code">Le code a été écrit par « Gemini » dans l’outil « Android Studio ».</string>
+    <string name="credits_pdf_text">Fiche de règles (français uniquement) téléchargeable avec des conseils pour fabriquer toi-même ton propre Mölkky à toi.</string>
+    <string name="credits_download_button">Télécharger la fiche PDF</string>
+    <!-- AIDE -->
+    <string name="help_title">Comment utiliser l\'app ?</string>
+    <string name="help_config_title">1. Configuration</string>
+    <string name="help_config_content">Dans l\'écran \"Qui joue ?\", saisissez les Alias des personnes qui jouent. Si vous souhaitez les enregistrer, cliquez sur l\'icône d\'enregistrement (vous pourrez ensuite les modifier, supprimer et en ajouter dans l\'onglet \"Alias\" de l\'écran d\'accueil). Cliquez sur la case de couleur à droite de l\'Alias pour choisir manuellement une équipe, ou laissez vide pour une répartition automatique en fonction du mode d\'équipe choisi en bas de cet écran (indiv, 2, 3 ou 4 équipes).</string>
+    <string name="help_score_title">2. Saisie des scores</string>
+    <string name="help_score_content">Cliquez sur la case colorée à droite de l\'Alias pour choisir le score réalisé ce tour-ci. Le score affiché dans cette case est le dernier score réalisé par cette personne.</string>
+    <string name="help_stats_title">3. Historique et Stats</string>
+    <string name="help_stats_content">À tout moment, cliquez sur le NOM d\'un joueur pour voir le détail de ses lancers et ses statistiques de la session en cours.</string>
+    <string name="help_nav_title">4. Astuce Navigation</string>
+    <string name="help_nav_content">Pendant une partie, vous pouvez utiliser le bouton retour de votre téléphone pour revenir à l\'accueil et consulter les règles sans perdre votre score en cours. Cliquez sur Démarrer pour reprendre la partie.</string>
+</resources>

@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">Mölkky Tracker</string>
+
+    <!-- Menu -->
+    <string name="menu_rules">Rules</string>
+    <string name="menu_start">Start</string>
+    <string name="menu_alias">Alias</string>
+    <string name="menu_credits">Credits</string>
+    <string name="settings_title">Languages</string>
+    <string name="settings_auto">System Default</string>
+
+    <!-- Setup -->
+    <string name="setup_title">Who is playing?</string>
+    <string name="setup_alias_placeholder">Alias</string>
+    <string name="setup_memorize">Memorize this Alias</string>
+    <string name="setup_game_mode">Game Mode</string>
+    <string name="setup_individual">Individual</string>
+    <string name="setup_teams">%1$d Teams</string>
+    <string name="setup_start_button">Start Game</string>
+
+    <!-- Game -->
+    <string name="game_over">Game Over!</string>
+    <string name="game_restart_same">1 - Restart (same teams)</string>
+    <string name="game_restart_new">2 - Restart (new teams)</string>
+    <string name="game_home">3 - Back to Home</string>
+    <string name="game_stats_title">Stats for %1$s</string>
+    <string name="game_current_session">Current Game</string>
+    <string name="game_no_score">No score</string>
+    <string name="game_throws">Throws (%1$d): %2$s</string>
+    <string name="game_total_points">Total: %1$d pts</string>
+    <string name="game_session_history">Session History</string>
+    <string name="game_history_entry">Game %1$d</string>
+    <string name="game_close">Close</string>
+
+    <!-- Alias -->
+    <string name="alias_manage_title">Manage Alias</string>
+    <string name="alias_new_placeholder">New Alias</string>
+    <string name="alias_add_button">Add</string>
+    <string name="alias_edit_dialog">Edit Alias</string>
+    <string name="alias_back">Back</string>
+
+    <!-- RULES (EN) -->
+    <string name="rules_materiel_title">Equipment</string>
+    <string name="rules_materiel_content">• 12 beveled pins numbered from 1 to 12,\n• 1 cylindrical thrower.</string>
+    <string name="rules_but_title">Goal</string>
+    <string name="rules_but_content">Be the first person/team to reach a score of exactly 50pts.</string>
+    <string name="rules_deroulement_title">Gameplay</string>
+    <string name="rules_deroulement_1">Arrange the game as shown on the home page.</string>
+    <string name="rules_deroulement_2">From the throwing zone, toss the \"Mölkky\" (thrower) at the pins.</string>
+    <string name="rules_deroulement_3">When a pin is completely flat, stand it up where its tip was. If it rests on another pin or the thrower, stand it up at its base location.</string>
+    <string name="rules_score_title">Scoring</string>
+    <string name="rules_score_bullet_1">Knock down a single pin to score the value shown on it.</string>
+    <string name="rules_score_bullet_2">Knock down multiple pins to score the number of pins fallen.</string>
+    <string name="rules_score_note">Only pins lying completely flat are counted.</string>
+    <string name="rules_score_example">\"For example: to score 4pts, you can knock down pin number 4 (alone), or knock down 4 pins in one throw, regardless of their numbers.\"</string>
+    <string name="rules_overshoot">If a player/team exceeds 50pts, their score drops back to 25pts.</string>
+    <string name="rules_miss_rule">If a player/team misses 3 consecutive throws, the next person in that team must skip their turn. The miss counter is then reset to zero.</string>
+    <string name="rules_miss_example">\"For example: Manu throws 0pt, then Julie throws 0pt. If Manu throws 0pt again, Julie must skip her turn. If points are scored, the counter is reset.\"</string>
+    <string name="rules_fin_title">End of Game</string>
+    <string name="rules_fin_content">When a person/team reaches exactly 50pts, the game ends.</string>
+    <string name="credits_title">CREDITS</string>
+    <string name="credits_author"><b>MARINDODOUSH</b> created this beautiful application (design, features).</string>
+    <string name="credits_code">The code was written by \"Gemini\" within \"Android Studio\".</string>
+    <string name="credits_pdf_text">Rules sheet (French only) downloadable with tips to build your own Mölkky set.</string>
+    <string name="credits_download_button">Download PDF sheet</string>
+    <!-- HELP -->
+    <string name="help_title">How to use the app?</string>
+    <string name="help_config_title">1. Configuration</string>
+    <string name="help_config_content">In the \"Who is playing?\" screen, enter the Alias of the players. If you want to save them, click the save icon (you can then edit, delete, or add them in the \"Alias\" tab on the home screen). Click the colored box to the right of the Alias to manually choose a team, or leave it blank for automatic distribution based on the team mode chosen at the bottom of this screen (indiv, 2, 3 or 4 teams).</string>
+    <string name="help_score_title">2. Scoring</string>
+    <string name="help_score_content">Click on the colored box to the right of the Alias to choose the score achieved this turn. The score displayed in this box is the last score made by this person.</string>
+    <string name="help_stats_title">3. History and Stats</string>
+    <string name="help_stats_content">At any time, click on a player\'s NAME to see the details of their throws and their stats for the current session.</string>
+    <string name="help_nav_title">4. Navigation Tip</string>
+    <string name="help_nav_content">During a game, you can use your phone\'s back button to return to the home screen and check the rules without losing your current game. Click Start to resume.</string>
+</resources>
