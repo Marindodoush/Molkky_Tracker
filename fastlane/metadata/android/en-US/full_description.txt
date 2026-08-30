@@ -1,0 +1,10 @@
+A free and open-source Android application to track your Mölkky games.
+The app automatically manages the turn order, teams (or free-for-all), and applies official rules (score drops to 25 if over 50, turn skipped after 3 consecutive misses).
+
+Features:
+- Alias memorization (players).
+- Manual or random team creation.
+- Session statistics management.
+- Translated into 5 languages (FR, EN, DE, ES, FI).
+- Color-blind friendly team icons.
+- Gender-inclusive text.

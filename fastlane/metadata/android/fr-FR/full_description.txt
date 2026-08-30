@@ -1,0 +1,10 @@
+Une application Android libre et open-source pour suivre vos parties de Mölkky.
+L'application gère automatiquement l'ordre de passage, les équipes (ou chacun pour soi), et applique les règles officielles (score qui retombe à 25 au-delà de 50, saut de tour après 3 échecs).
+
+Fonctionnalités :
+- Mémorisation d'Alias (joueurs).
+- Création d'équipes aléatoires ou manuelles.
+- Gestion des statistiques de session.
+- Traduite en 5 langues (FR, EN, DE, ES, FI).
+- Accessible pour les daltoniens grâce aux icônes d'équipes.
+- Inclusivité de genre dans les textes.
